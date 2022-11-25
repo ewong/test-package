@@ -8,7 +8,7 @@
     "./dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "url": "https://github.com/ewong/test-package/issues"
   },
   "homepage": "https://github.com/ewong/test-package#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.9.3"
   }
 }
